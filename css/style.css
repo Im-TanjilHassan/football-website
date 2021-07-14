@@ -202,6 +202,10 @@ nav a:hover,
      box-shadow: 5px 5px 10px gray;
 }
 
+.player-card p {
+     text-align: left;
+}
+
 .plyr-img {
      width: 100%;
      border-radius: 10px;
@@ -518,5 +522,5 @@ footer {
 }
 
 /* =============================
-     Media Query start
+     Media Query end
 ================================*/
