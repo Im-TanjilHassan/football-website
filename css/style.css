@@ -12,6 +12,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+     font-size: 16px;
+     line-height: 26px;
+     color: #6C6C6C;  
+}
+
 /*===============================
      base style end 
 =================================*/
@@ -208,11 +214,7 @@ nav a:hover,
      white-space: nowrap;
 }
 
-.player-info {
-     font-size: 16px;
-     line-height: 26px;
-     color: #6C6C6C;  
-}
+
 
 /* ----------------------------
      players-articles end
@@ -232,16 +234,11 @@ nav a:hover,
      padding-top: 3% ;
 }
 
-.blog-title {
+.sec-title {
      align-items: center;
      text-align: center;
      margin-bottom: 50px;
      
-}
-
-
-.blog-head {
-     margin-top: 0;
 }
 
 .blog-box {
@@ -279,6 +276,44 @@ nav a:hover,
 /*-----------------------------
       Blog section end
 -------------------------------*/
+
+/*------------------------------
+      achivment section start
+--------------------------------*/
+
+
+
+.blog-head {
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom: 50px;
+}
+
+.trophes {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.trophy {
+     width: 230px;
+     height: 390px;
+}
+
+.trophy h3, p {
+     text-align: center;
+     
+}
+
+
+.trophy img {
+     width: 100%;
+}
+
+/*------------------------------
+      achivment section end
+--------------------------------*/
 
 /*=============================
       Main style end
