@@ -207,6 +207,7 @@ nav a:hover,
      border-radius: 10px;
 }
 
+
 .player-name {
      font-weight: bold;
      font-size: 24px;  
@@ -214,6 +215,7 @@ nav a:hover,
      color: #800000;
      white-space: nowrap;
 }
+
 
 
 
@@ -374,3 +376,147 @@ footer {
 ===============================*/
 
 
+
+
+/* =============================
+     Media Query start
+================================*/
+
+/* For mobile phone */
+
+@media only screen and (max-width:688px) {
+
+     /* header section */
+
+     header {
+          width: 126%;
+          height: 125vh;
+     }
+
+     .navigation {
+          display: none;
+     }
+
+     .header-title {
+          font-size: 45px;
+     }
+
+     .header-contant {
+          display: block;
+          position: absolute;
+          top: 112px;
+          left: 16px;
+          flex-direction: column;
+          
+     }
+
+     .header-img, 
+     .title  {
+          width: 429px;
+          height: 359.17px;
+     }
+
+     .btn-1 {
+          border-radius: 10px;
+          background-color: #E02C6D;
+          
+     }
+
+     .btn-1::before {
+          display: none;
+     }
+     
+     /* header section end */
+
+     /* article section  */
+
+
+     .container {
+          position: relative;
+          top: 0;
+          left: 0;
+     }
+
+     .box {
+          grid-template-columns: repeat(1,1fr);
+          grid-row-gap: 50px;
+          margin: 0;
+          width: 127%;
+          height: 100%;
+     }
+
+     .player-box {
+          flex-direction: column;
+
+     }
+
+     .player-card {
+          
+          margin-bottom: 27px;
+     }
+
+     /* article section end */
+
+     /* blog section start */
+
+     .blog-sec {
+          width: 126%;
+          height: 100%;   
+     }
+
+     .blog-box {
+          flex-direction: column;
+     }
+
+     .blog {
+          margin-bottom: 29px;
+     }
+
+     /* blog section end */
+
+     /* achivment section start */
+
+     .achivment-sec {
+          width: 126%;
+          height: auto;
+     }
+
+     .trophes {
+          flex-direction: column;
+     }
+
+     .trophy {
+          margin-bottom: 29px;
+     }
+
+     /* achivment section end */
+
+     /* footer section start */
+
+     footer {
+          width: 126%;
+          height: auto;
+     }
+
+     .footer {
+          width: 200px;
+     }
+
+     .footer img {
+          width: 100%;
+     }
+
+     .social {
+          justify-content: space-around;
+     }
+
+     .social a {
+          background-color: white;
+     }
+
+     /* footer section end */
+}
+
+/* =============================
+     Media Query start
+================================*/
