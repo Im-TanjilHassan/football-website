@@ -1,0 +1,206 @@
+/*===============================
+     base style start 
+=================================*/
+
+/* font awrsome link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ------------------------------- */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*===============================
+     base style start 
+=================================*/
+
+
+/*---------------------------
+     header style start 
+-----------------------------*/
+header {
+     background-image: linear-gradient(to left top, #800000, #870809, #8f1110, #961817, #9e1e1d, #a42624, #a92d2c, #af3433, #b43e3d, #b94746, #be5050, #c25959);
+     height: 700px;
+     margin-bottom: 10%;
+     
+}
+
+.navigation {
+     position: absolute;
+     width: 1000px;
+     height: 44px;
+     left: 156px;
+     top: 42px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+}
+
+nav a {
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     padding: 10px 17px;
+     border-radius: 50px;
+     margin-right: 7px;
+     font-weight: bold;
+     transition: background-color .5s;
+}
+
+nav a:hover,
+#actv {
+     background-color: #800000e7;
+}
+
+.nav-btn {
+     margin-right: 12px;
+}
+
+.btn {
+     text-decoration: none;
+     color: white;
+     padding: 10px 17px;
+     border-radius: 5px;
+     font-weight: bold;
+     background-color: #e02c6eb7;
+     transition: backgrond-color .5s;
+}
+
+.btn i {
+     margin-right: 15px;
+     transition: transform .2s ease-in;
+}
+
+.btn:hover{
+     background-color: #E02C6D;
+}
+
+.btn:hover i {
+     transform: translate(3px);
+}
+
+.header-contant {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: absolute;
+     top: 235px;
+     left: 158px;
+     
+}
+
+.header-img,
+.title {
+     width: 560px;
+     height: 438px;
+}
+
+img {
+     width: 100%;
+}
+
+.header-title {
+     font-size: 64px;
+     color: white;
+}
+
+.clr-txt {
+     color: #800000e7;
+}
+
+.btn-1 {
+     text-decoration: none;
+     text-align: center;
+     color: wheat;
+     padding: 10px 20px;
+     position: relative;
+     border-radius: 50px;
+     z-index: 1;
+}
+
+.btn-1::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 48px;
+     height: 48px;
+     border-radius: 50px;
+     background-color: #800000;
+     z-index: -1;
+     transition: width .5s ease-in-out;
+}
+
+.btn-1 i {
+     margin-left: 10px;
+     transition: transform .1s ease-in .5s;
+}
+
+.btn-1:hover i {
+     transform: translate(2px);
+}
+
+.btn-1:hover::before {        
+     width: 100%; 
+}
+
+/*---------------------------
+     header style start 
+-----------------------------*/
+
+/* ===========================
+     main section style
+==============================*/
+
+/* ----------------------------
+     players-articles start
+-------------------------------*/
+
+.box {
+     width: 1050px;
+     height: 474px;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     align-items: center;
+     margin: 0 20%;
+}
+
+.player-box {
+     display: flex;
+     align-items: center;
+}
+
+.player-card {
+     width: 230px;
+     height: 374px; 
+     padding: 10px 13px;
+     margin-right: 20px;
+     border-radius: 10px;
+     background-color: rgb(240, 239, 239);
+}
+
+.player-card:hover {
+     box-shadow: 5px 5px 10px gray;
+}
+
+.plyr-img {
+     width: 100%;
+     border-radius: 10px;
+}
+
+.player-name {
+     font-weight: bold;
+     font-size: 24px;  
+     margin: 10px 0px;
+     color: #800000;
+     white-space: nowrap;
+}
+
+.player-info {
+     font-size: 16px;
+     line-height: 26px;
+     color: #6C6C6C;  
+}
